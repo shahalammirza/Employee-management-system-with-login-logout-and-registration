@@ -1,0 +1,94 @@
+* zoom */
+.alert-zoom-in-out {
+  width: 30px;
+  margin: 0 auto;
+  font-size: 16px;
+  height: auto;
+  top: 20px;
+  color: rgb(12, 84, 96);
+  background-color: rgb(209, 236, 241);
+}
+
+.alert-zoom-in-out .close {
+  padding-right: 5px;
+}
+
+.high-contrast-on,
+.high-contrast-on a,
+.high-contrast-on i {
+  background-color: rgb(12, 84, 96);
+  color: rgb(209, 236, 241); 
+}
+
+#bphoto{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#bphoto::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.form-section{
+  padding-top: 160px;
+}
+.contact-heading{
+  position: relative;
+  font-weight: bold;
+  margin-bottom: 77px;
+}
+.contact-heading::before{
+  content: "";
+  width: 50px;
+  height: 5px;
+  position: absolute;
+  background-color: #ff7fb5a8;
+  bottom: -6px;
+}
+
+.input-box{
+  position: relative;
+  margin-top: 25px;
+}
+.input-box input{
+  width: 100%;
+  margin-bottom: 20px;
+  border:none;
+  border-bottom: 1px solid #3b4f50;
+  outline: none;
+  background-color: transparent;
+  padding-left: 10px;
+}
+
+.input-box label{
+  position: absolute;
+  top: 0;
+    left: 0;
+    color: #9c9999;
+    transition: 0.5s;
+}
+.input-box input:focus ~ label,
+.input-box input:valid ~ label
+{
+  top: -17px;
+  color:#160cc3;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.registration_heading{
+  position: relative;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.registration_warper{
+  padding-top: 77px;
+}
+
+
